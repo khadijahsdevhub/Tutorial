@@ -9,7 +9,7 @@ namespace Tutorial
     internal class AccessDemo1
     {
         public AccessDemo1(string name) { }
-
+        
         CopyConDemo demo = new CopyConDemo(10, true);
     }
 }
