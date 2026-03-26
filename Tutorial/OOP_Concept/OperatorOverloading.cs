@@ -61,7 +61,7 @@
             Console.WriteLine("The first matrix");
             Console.WriteLine(m1);
             Console.WriteLine("The first matrix");
-            Console.WriteLine(m2);
+            Console.WriteLine(m2);  
             Console.WriteLine("The sum of the first and second matrices");
             Console.WriteLine(m3);
             Console.WriteLine("The difference of the first and second matrices");
