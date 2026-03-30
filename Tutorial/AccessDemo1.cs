@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Tutorial
 {
-    public class AccessDemo1
+    internal class AccessDemo1
     {
+        public AccessDemo1(string name) { }
         
+        CopyConDemo demo = new CopyConDemo(10, true);
     }
 }
