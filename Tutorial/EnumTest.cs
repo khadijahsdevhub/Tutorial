@@ -15,7 +15,7 @@ namespace Tutorial
     {
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.Green;
+            //Console.BackgroundColor = ConsoleColor.Green;
             Console.WriteLine("Hello World");
 
             Days day1 = 0;
