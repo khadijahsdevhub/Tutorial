@@ -1,4 +1,4 @@
-﻿namespace Tutorial.OOP_Concept
+﻿namespace Tutorial.OOP_Concept.properties
 {
     internal class Customer
     {
@@ -48,4 +48,6 @@
 
         }
     }
+
+
 }

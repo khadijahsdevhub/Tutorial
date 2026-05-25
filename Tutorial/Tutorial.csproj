@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Tutorial.OOP_Concept.TestCustomer</StartupObject>
+    <StartupObject>Tutorial.OOP_Concept.Collections.DictionaryCollection</StartupObject>
   </PropertyGroup>
 
 </Project>

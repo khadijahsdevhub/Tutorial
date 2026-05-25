@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tutorial.OOP_Concept
+namespace Tutorial.OOP_Concept.properties
 {
     internal class TestCustomer
     {
@@ -41,5 +41,25 @@ namespace Tutorial.OOP_Concept
 
 
         }
+    }
+
+    class TestCustomerList
+    {
+        static void Main()
+        {
+            List<Customer> CustomerList = new List<Customer>();
+            Customer CustomerOne = new Customer(001, "Adebimpe", false, 5000.00);
+            Customer CustomerTwo = new Customer(002, "Lawal", true, 10000.00);
+            Customer CustomerThree = new Customer(003, "Sanni", false, 15000.00);
+            Customer CustomerFour = new Customer(004, "Ayoola", true, 18000.00);
+
+            CustomerList.Add(CustomerOne);
+            CustomerList.Add(CustomerTwo);
+            CustomerList.Add(CustomerThree);
+            CustomerList.Add(CustomerFour);
+
+
+        }
+
     }
 }
